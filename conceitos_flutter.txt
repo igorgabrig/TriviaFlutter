@@ -1,0 +1,90 @@
+Stateful - Possui uma propriedade "state", ou seja, permite que seu estado seja alterado. 
+	   Ex: Um Switich, tem um botão que habilita e desabilita.
+
+Stateless - Não tem a propriedade "state", então não permite que seu estado seja alterado
+	    Ex: Um texto.
+
+
+
+MaterialApp - É uma aplicação que utiliza o Material Design(O material design disponibiliza componentes comum do design(botoes, sombra, toollbar)).
+	    - Cria a base para uma apliicação
+	    - Disponibiliza componentes comuns de design
+            - Disponibiliza componentes para navegação
+
+
+Material Widget - Responsável por definir o Clipping(borderRadius,shape,etc..) e o Elevation(shadow)
+
+Column - Widget que organiza seus componentes de forma Vertical
+
+Row - Widget que organiza seus componentes de forma Horizontal
+
+Assets - São componentes como: Imagens, ícones, SVG's, que adicionamos no projeto
+
+Image - Widget que exibe uma Imagem.
+
+AssetImage - Carrega uma imagem do asset
+
+SizedBox - Utiliza-se para informar uma atura e largura de um asset
+
+Imagens precisam ter resoluções diferentes para aparelhos diferentes.
+
+
+Text - widget que exibe um Texto na tela
+
+TextStyle - Permite formatar um texto(Font, Size, Weight)
+
+FlatButton - Widget de Botão, permite executar ações ao ser clicado
+
+
+Navigator - Componente para navegação de telas:
+	  	- Cria uma pilha de Route(Páginas/telas)
+	  	- Permite Manipular essa pilha
+
+
+	  MaterialPageRoute:
+		- Faz a transição entre as telas;
+		- Sobrepõe uma tela em fullscreen;
+
+Scaffold - Implementa o layout básico do material:
+	 	- AppBar
+		- BottomBar
+		- FloatActionButton
+
+		AppBar - Área no topo da tela
+			-Leading
+			- Title
+			- Actions
+
+Expanded - Widget que prenche o espaço disponível em uma column, row ou flex.
+
+ListView - Widget de lista com rolagem alinhados linearmente.
+
+BoxDecoration - Forma de descrever como desenhar uma caixa
+	      		- Borda
+			- Aredondamento
+			- Sombra
+			- Cor
+
+BoxShadow - Cria sombra para uma caixa
+		- Cor
+		- SpreadRadius(Expansão)
+		- BlurRadius(Desfocagem)
+		- OffSet(Deslocamento)
+
+RadioListTitle - Radio Button com Label. Usado para selecionar valores mutuamente exclusivos.
+			- Value
+			- groupValue
+			
+		Quando value e groupValue são iguais o Radio será selecionado
+
+setState() - Informa o framework que o state foi alterado.
+	     	- É executado o build novamente
+	     Obs: Só existe nos stateful widgets
+
+
+Classes - É uma descrição que abstrai entidades do mundo real, representadas por objetos
+		- Propriedades (Variáveis)
+		- Comportamentos (Métodos)
+
+
+Objetos - É uma entidade criada a partir de uma classe
